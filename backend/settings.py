@@ -26,7 +26,12 @@ SECRET_KEY = 'django-insecure-hbjq!jo7v#zy8bwdx@^mtd#6@6mqy#3domphb(*ututlhsecsk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.50.180', '127.0.0.1',]
+ALLOWED_HOSTS = [
+    '192.168.50.180',
+    '127.0.0.1',
+    'https://appointments-backend-ypde.onrender.com',
+    'appointments-backend-ypde.onrender.com'
+]
 
 
 # Application definition
